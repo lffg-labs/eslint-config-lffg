@@ -6,7 +6,7 @@
   ],
   "devDependencies": {
     "eslint": "^6.7.1",
-    "eslint-config-lffg": "^9.0.0",
+    "eslint-config-lffg": "latest",
     "lerna": "^3.19.0"
   }
 }
