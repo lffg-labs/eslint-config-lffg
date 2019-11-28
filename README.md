@@ -16,6 +16,12 @@ yarn add eslint eslint-config-lffg --dev
 
 The `eslint-config-lffg-react` is a kind of extension to my main one, as it only adds some rules of React-related ESLint plugins, such as [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react) and [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks). Please note that, although it is not required, the `eslint-config-lffg` ESLint configuration is a _peer dependency_ of this module.
 
+Install it:
+
+```shell
+yarn add eslint eslint-config-lffg eslint-config-lffg-react --dev
+```
+
 ## 📖 License
 
 Copyright (c) 2019-current Luiz Felipe Gonçalves.
