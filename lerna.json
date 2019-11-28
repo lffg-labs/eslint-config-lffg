@@ -7,9 +7,7 @@
   "loglevel": "success",
   "command": {
     "publish": {
-      "allowBranch": "master",
-      "conventionalCommits": true,
-      "message": "chore(release): Publish"
+      "message": "chore: Publish"
     }
   },
   "ignoreChanges": ["**/CHANGELOG.md"]
