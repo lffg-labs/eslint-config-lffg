@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lffg-react",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "lffg's ESLint React configuration.",
   "main": "config.js",
   "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
