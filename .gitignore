@@ -71,3 +71,7 @@ tmp
 build
 dist
 __ignore__*
+
+# Lockfiles:
+yarn.lock
+package-lock.json
