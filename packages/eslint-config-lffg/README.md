@@ -7,14 +7,14 @@ My base ESLint configuration (`eslint-config-lffg`). I use it across all my proj
 - Single quotes;
 - Parenthesis in arrow functions are always required.
 
+> If you are using React in your project, you should use this configuration in conjunction with [`eslint-config-lffg-react`](https://github.com/lffg/eslint-config-lffg/tree/master/packages/eslint-config-lffg-react#readme), which add some React-related rules.
+
 ## ℹ️ List of plugins and other configs that are being used
 
 - Extended configuration list:
   - `eslint:recommended`;
   - [`prettier`](https://www.npmjs.com/package/eslint-config-prettier).
 - Plugin list:
-  - [`react`](https://www.npmjs.com/package/eslint-plugin-react);
-  - [`react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks);
   - [`jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y);
   - [`import`](https://www.npmjs.com/package/eslint-plugin-import);
   - [`import-helpers`](https://www.npmjs.com/package/eslint-plugin-import-helpers);

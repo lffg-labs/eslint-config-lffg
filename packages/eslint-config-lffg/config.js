@@ -12,15 +12,7 @@ module.exports = {
 
   extends: ['eslint:recommended', 'prettier'],
 
-  plugins: [
-    'react',
-    'react-hooks',
-    'jsx-a11y',
-    'import',
-    'import-helpers',
-    'html',
-    'prettier'
-  ],
+  plugins: ['jsx-a11y', 'import', 'import-helpers', 'html', 'prettier'],
 
   env: {
     browser: true,
@@ -40,11 +32,6 @@ module.exports = {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx']
-    },
-
-    // Override this option in your own .eslintrc.json file.
-    react: {
-      version: 'latest'
     }
   },
 
@@ -215,33 +202,6 @@ module.exports = {
     'no-constant-condition': OFF,
     'no-empty-function': OFF,
     'require-await': OFF,
-
-    //
-    // ESLint Plugin React
-    // https://github.com/yannickcr/eslint-plugin-react
-    //
-    'react/require-render-return': ERROR,
-    'react/react-in-jsx-scope': ERROR,
-    'react/jsx-no-undef': ERROR,
-    'react/no-typos': ERROR,
-    'react/forbid-foreign-prop-types': [WARN, { allowInPropTypes: true }],
-    'react/jsx-no-comment-textnodes': WARN,
-    'react/no-direct-mutation-state': WARN,
-    'react/no-danger-with-children': WARN,
-    'react/jsx-no-duplicate-props': WARN,
-    'react/jsx-no-target-blank': WARN,
-    'react/style-prop-object': WARN,
-    'react/jsx-pascal-case': WARN,
-    'react/jsx-uses-react': WARN,
-    'react/jsx-uses-vars': WARN,
-    'react/no-is-mounted': WARN,
-
-    //
-    // ESLint Plugin React Hooks
-    // https://github.com/facebook/react
-    //
-    'react-hooks/rules-of-hooks': ERROR,
-    'react-hooks/exhaustive-deps': WARN,
 
     //
     // ESLint Plugin JSX a11y
