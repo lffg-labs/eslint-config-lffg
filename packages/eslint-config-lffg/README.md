@@ -1,20 +1,25 @@
 # ✨ 💫 `eslint-config-lffg`
 
-My base ESLint configuration.
+My base ESLint configuration (`eslint-config-lffg`). I use it across all my projects. Its main style conventions are:
+
+- 2 spaces for indentation;
+- Semicolons required;
+- Single quotes;
+- Parenthesis in arrow functions are always required.
 
 ## ℹ️ List of plugins and other configs that are being used
 
 - Extended configuration list:
-  1. `eslint:recommended`;
-  1. `prettier`.
+  - `eslint:recommended`;
+  - [`prettier`](https://www.npmjs.com/package/eslint-config-prettier).
 - Plugin list:
-  1. `react`;
-  1. `react-hooks`;
-  1. `jsx-a11y`;
-  1. `import`;
-  1. `import-helpers`;
-  1. `html`;
-  1. `prettier`.
+  - [`react`](https://www.npmjs.com/package/eslint-plugin-react);
+  - [`react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks);
+  - [`jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y);
+  - [`import`](https://www.npmjs.com/package/eslint-plugin-import);
+  - [`import-helpers`](https://www.npmjs.com/package/eslint-plugin-import-helpers);
+  - [`html`](https://www.npmjs.com/package/eslint-plugin-html);
+  - [`prettier`](https://www.npmjs.com/package/eslint-plugin-prettier).
 
 ## 📦 How to use it?
 
