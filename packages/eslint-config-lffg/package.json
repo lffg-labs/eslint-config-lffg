@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-lffg",
+  "version": "9.0.0",
+  "description": "lffg's ESLint configuration.",
+  "main": "eslint-config-lffg.js",
+  "scripts": {
+    "lint": "yarn lint:raw .",
+    "lint:fix": "yarn lint:raw --fix .",
+    "lint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lffg/eslint-config-lffg.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier"
+  ],
+  "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lffg/eslint-config-lffg/issues"
+  },
+  "homepage": "https://github.com/lffg/eslint-config-lffg#readme",
+  "peerDependencies": {
+    "eslint": "6.x"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.x",
+    "builtin-modules": "^3.1.0",
+    "confusing-browser-globals": "^1.0.8",
+    "eslint": "6.x",
+    "eslint-config-prettier": "6.x",
+    "eslint-plugin-html": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-import-helpers": "1.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "3.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "2.x",
+    "prettier": "1.x",
+    "typescript": "3.5.3"
+  }
+}
