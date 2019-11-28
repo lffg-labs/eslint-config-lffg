@@ -1,0 +1,12 @@
+{
+  "name": "@lffg/workspace-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-lffg": "^9.0.0",
+    "lerna": "^3.19.0"
+  }
+}
