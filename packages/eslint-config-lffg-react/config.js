@@ -1,32 +1,28 @@
+const lffgConfig = require('eslint-config-lffg');
+
+if (!lffgConfig) {
+  throw new Error(
+    'You must install `eslint-config-lffg` as a development dependency to use `eslint-config-lffg-react`.'
+  );
+}
+
+const { root, parser, env, parserOptions, overrides } = lffgConfig;
+
 const ERROR = 'error';
 const WARN = 'warn';
-// eslint-disable-next-line no-unused-vars
-const OFF = 'off';
 
 module.exports = {
-  root: true,
-
-  parser: 'babel-eslint',
+  root,
+  env,
+  parser,
+  parserOptions,
+  overrides,
 
   plugins: ['react', 'react-hooks'],
 
-  env: {
-    browser: true,
-    commonjs: true,
-    es6: true,
-    jest: true,
-    node: true
-  },
-
-  parserOptions: {
-    ecmaFeatures: { jsx: true },
-    ecmaVersion: 2018,
-    sourceType: 'module'
-  },
-
   settings: {
-    // Override this option in your own .eslintrc.json file.
     react: {
+      // Override this option in your own .eslintrc.json file, if needed.
       version: 'latest'
     }
   },
