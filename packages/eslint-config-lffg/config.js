@@ -12,7 +12,14 @@ module.exports = {
 
   extends: ['eslint:recommended', 'prettier'],
 
-  plugins: ['jsx-a11y', 'import', 'import-helpers', 'html', 'prettier'],
+  plugins: [
+    'jsx-a11y',
+    'import',
+    'import-helpers',
+    'html',
+    'prettier',
+    'react'
+  ],
 
   env: {
     browser: true,
@@ -257,6 +264,12 @@ module.exports = {
         newlinesBetween: 'never'
       }
     ],
+
+    //
+    // React
+    // (Fixes https://github.com/typescript-eslint/typescript-eslint/issues/111)
+    //
+    'react/jsx-uses-vars': ERROR,
 
     //
     // Prettier:
