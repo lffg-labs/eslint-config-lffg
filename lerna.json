@@ -8,7 +8,7 @@
   "command": {
     "publish": {
       "message": "chore: Publish",
-      "conventionalCommit": true
+      "conventionalCommits": true
     }
   },
   "ignoreChanges": ["**/CHANGELOG.md"]
