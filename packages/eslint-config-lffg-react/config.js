@@ -32,6 +32,7 @@ module.exports = {
     // ESLint Plugin React
     // https://github.com/yannickcr/eslint-plugin-react
     //
+    'react/void-dom-elements-no-children': ERROR,
     'react/require-render-return': ERROR,
     'react/react-in-jsx-scope': ERROR,
     'react/jsx-no-undef': ERROR,
@@ -43,10 +44,12 @@ module.exports = {
     'react/jsx-no-duplicate-props': WARN,
     'react/jsx-no-target-blank': WARN,
     'react/style-prop-object': WARN,
+    'react/self-closing-comp': WARN,
     'react/jsx-pascal-case': WARN,
     'react/jsx-uses-react': WARN,
     'react/jsx-uses-vars': WARN,
     'react/no-is-mounted': WARN,
+    'react/jsx-key': [WARN, { checkFragmentShorthand: true }],
 
     //
     // ESLint Plugin React Hooks
