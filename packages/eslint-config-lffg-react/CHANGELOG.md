@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/lffg/eslint-config-lffg/compare/eslint-config-lffg-react@1.0.2...eslint-config-lffg-react@2.0.0) (2019-12-16)
+
+
+### Features
+
+* Add new rules ([6ec6cef](https://github.com/lffg/eslint-config-lffg/commit/6ec6cefe52cbcc2b25f99bfe3897ffa9dd93915d))
+
+
+
+
+
 ## [1.0.2](https://github.com/lffg/eslint-config-lffg/compare/eslint-config-lffg-react@1.0.1...eslint-config-lffg-react@1.0.2) (2019-12-04)
 
 
