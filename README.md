@@ -26,6 +26,47 @@ Install it:
 yarn add eslint eslint-config-lffg eslint-config-lffg-react --dev
 ```
 
+## Quick Start Guide
+
+Install the dependencies:
+
+```shell
+yarn add eslint eslint-config-lffg --dev
+
+# Or, if you're using React:
+yarn add eslint eslint-config-lffg eslint-config-lffg-react --dev
+```
+
+Create a file named `.eslintrc.json` in the root of your project:
+
+```js
+{
+  "extends": ["lffg"]
+}
+
+// Or:
+
+{
+  "extends": ["lffg", "lffg-react"]
+}
+```
+
+Add the following scripts to your `package.json`:
+
+```js
+"scripts": {
+  "lint": "yarn lint:raw .",
+  "lint:fix": "yarn lint:raw --fix .",
+  "lint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0",
+}
+```
+
+Then, you will be able to run:
+
+- `lint`, to run the linter _without_ correcting any problems;
+- `lint:fix`, to run the linter _and_ correct all the _fixable_ problems;
+- `lint:raw`, to run the linter with custom options—I personally use that in some CI environments.
+
 ## 📖 License
 
 Copyright (c) 2019-current Luiz Felipe Gonçalves.  
