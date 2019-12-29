@@ -69,5 +69,5 @@ Then, you will be able to run:
 
 ## 📖 License
 
-Copyright (c) 2019-current Luiz Felipe Gonçalves.  
+Copyright (c) 2019-current [Luiz Felipe Gonçalves](https://luizfelipe.dev).  
 Each package has its own MIT license.
