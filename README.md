@@ -26,7 +26,7 @@ Install it:
 yarn add eslint eslint-config-lffg eslint-config-lffg-react --dev
 ```
 
-## Quick Start Guide
+## 🚀 Quick Start Guide
 
 Install the dependencies:
 
