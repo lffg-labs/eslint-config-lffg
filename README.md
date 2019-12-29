@@ -26,7 +26,7 @@ Install it:
 yarn add eslint eslint-config-lffg eslint-config-lffg-react --dev
 ```
 
-## 🚀 Quick Start Guide
+## 🚀 Quick Start
 
 Install the dependencies:
 
@@ -69,5 +69,5 @@ Then, you will be able to run:
 
 ## 📖 License
 
-Copyright (c) 2019-current [Luiz Felipe Gonçalves](https://luizfelipe.dev).  
+Copyright &copy; 2019-current [Luiz Felipe Gonçalves](https://luizfelipe.dev).  
 Each package has its own MIT license.
