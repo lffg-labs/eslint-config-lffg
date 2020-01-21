@@ -1,3 +1,19 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [11.0.0](https://github.com/lffg/eslint-config-lffg/compare/eslint-config-lffg@10.0.1...eslint-config-lffg@11.0.0) (2020-01-21)
+
+
+### Features
+
+* Add `one-var` rule to warn ([15fe4c0](https://github.com/lffg/eslint-config-lffg/commit/15fe4c070970e81400e875c1c7efa6edcf9271cf))
+
+
+
+
+
 ## [10.0.1](https://github.com/lffg/eslint-config-lffg/compare/eslint-config-lffg@10.0.1...eslint-config-lffg@10.0.1) (2019-12-07)
 
 ### Bug Fixes
