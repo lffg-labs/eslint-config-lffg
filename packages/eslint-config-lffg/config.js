@@ -180,6 +180,7 @@ module.exports = {
     'no-debugger': WARN, // Recommended -> Warn
     'use-isnan': WARN, // Recommended -> Warn
     'no-empty': WARN, // Recommended -> Warn
+    'one-var': [WARN, 'always'],
     'no-eval': WARN,
     camelcase: [WARN, { properties: 'never' }],
     'no-var': WARN,
