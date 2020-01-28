@@ -1,9 +1,8 @@
 const builtInModules = require('builtin-modules');
-const restrictedGlobals = require('confusing-browser-globals');
-
-const ERROR = 'error';
-const WARN = 'warn';
-const OFF = 'off';
+const restrictedGlobals = require('confusing-browser-globals'),
+  ERROR = 'error',
+  WARN = 'warn',
+  OFF = 'off';
 
 module.exports = {
   root: true,
@@ -180,7 +179,7 @@ module.exports = {
     'no-debugger': WARN, // Recommended -> Warn
     'use-isnan': WARN, // Recommended -> Warn
     'no-empty': WARN, // Recommended -> Warn
-    'one-var': [WARN, 'always'],
+    'one-var': [WARN, 'never'],
     'no-eval': WARN,
     camelcase: [WARN, { properties: 'never' }],
     'no-var': WARN,
