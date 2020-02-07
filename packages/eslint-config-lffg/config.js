@@ -156,6 +156,7 @@ module.exports = {
     'no-useless-concat': WARN,
     'no-useless-catch': WARN,
     'no-throw-literal': WARN,
+    'no-await-in-loop': WARN,
     'no-extend-native': WARN,
     'no-regex-spaces': WARN, // Recommended -> Warn
     'no-return-await': WARN,
