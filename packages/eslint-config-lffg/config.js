@@ -124,6 +124,7 @@ module.exports = {
     'no-restricted-syntax': [ERROR, 'WithStatement'],
     'no-native-reassign': ERROR,
     'prefer-rest-params': ERROR,
+    'no-import-assign': ERROR,
     'no-new-wrappers': ERROR,
     'no-octal-escape': ERROR,
     'no-implied-eval': ERROR,
