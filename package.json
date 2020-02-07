@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "test": "yarn eslint .",
+    "release": "yarn test && yarn lerna publish major"
+  },
   "devDependencies": {
     "eslint": "^6.7.1",
     "eslint-config-lffg": "latest",
