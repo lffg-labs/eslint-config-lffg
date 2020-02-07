@@ -120,6 +120,7 @@ module.exports = {
     // ESLint Rules
     // https://github.com/eslint/eslint
     //
+    'require-atomic-updates': ERROR,
     'no-restricted-globals': [ERROR].concat(restrictedGlobals),
     'no-restricted-syntax': [ERROR, 'WithStatement'],
     'no-native-reassign': ERROR,
