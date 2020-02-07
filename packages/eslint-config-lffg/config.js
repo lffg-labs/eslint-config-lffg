@@ -155,6 +155,7 @@ module.exports = {
     'no-unsafe-negation': WARN, // Recommended -> Warn
     'no-useless-return': WARN,
     'no-useless-concat': WARN,
+    'no-setter-return': WARN,
     'no-useless-catch': WARN,
     'no-throw-literal': WARN,
     'no-await-in-loop': WARN,
