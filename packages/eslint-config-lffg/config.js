@@ -1,8 +1,9 @@
 const builtInModules = require('builtin-modules');
-const restrictedGlobals = require('confusing-browser-globals'),
-  ERROR = 'error',
-  WARN = 'warn',
-  OFF = 'off';
+const restrictedGlobals = require('confusing-browser-globals');
+
+const ERROR = 'error';
+const WARN = 'warn';
+const OFF = 'off';
 
 module.exports = {
   root: true,
