@@ -154,6 +154,7 @@ module.exports = {
     'prefer-object-spread': WARN,
     'no-unneeded-ternary': WARN,
     'no-unsafe-negation': WARN, // Recommended -> Warn
+    'no-param-reassign': WARN,
     'no-useless-return': WARN,
     'no-useless-concat': WARN,
     'no-setter-return': WARN,
