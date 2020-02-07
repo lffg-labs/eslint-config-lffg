@@ -176,6 +176,7 @@ module.exports = {
     'no-script-url': WARN,
     'no-extra-bind': WARN,
     'default-case': [WARN, { commentPattern: '^no default$' }],
+    'guard-for-in': WARN,
     'prefer-const': WARN,
     'dot-notation': WARN,
     'dot-location': [WARN, 'property'],
