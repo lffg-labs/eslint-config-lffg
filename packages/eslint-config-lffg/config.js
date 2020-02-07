@@ -166,6 +166,7 @@ module.exports = {
     'no-extra-label': WARN,
     'no-func-assign': WARN,
     'no-lone-blocks': WARN,
+    'require-await': WARN,
     'require-yield': WARN, // Recommended -> Warn
     'no-script-url': WARN,
     'no-extra-bind': WARN,
@@ -209,7 +210,6 @@ module.exports = {
     ],
     'no-constant-condition': OFF,
     'no-empty-function': OFF,
-    'require-await': OFF,
 
     //
     // ESLint Plugin JSX a11y
