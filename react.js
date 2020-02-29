@@ -15,8 +15,8 @@ module.exports = {
   settings: {
     react: {
       // Override this option in your own .eslintrc.json file, if needed.
-      version: 'latest',
-    },
+      version: 'latest'
+    }
   },
 
   rules: {
@@ -48,6 +48,6 @@ module.exports = {
     // https://github.com/facebook/react
     //
     'react-hooks/rules-of-hooks': ERROR,
-    'react-hooks/exhaustive-deps': WARN,
-  },
+    'react-hooks/exhaustive-deps': WARN
+  }
 };
