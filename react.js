@@ -1,4 +1,4 @@
-const { root, parser, env, parserOptions, overrides } = require('./default');
+const { root, parser, env, parserOptions, overrides } = require('./es');
 
 const ERROR = 'error';
 const WARN = 'warn';
