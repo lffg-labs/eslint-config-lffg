@@ -1,4 +1,0 @@
-There are multiple packages in this repository, as it is a monorepo.  
-Each package (inside the `packages` directory) has its own `LICENSE` file.
-
-Copyright (c) 2019-current Luiz Felipe Gonçalves
