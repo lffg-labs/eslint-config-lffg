@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lffg",
-  "version": "13.0.0",
+  "version": "14.0.0-0",
   "description": "lffg's ESLint configuration.",
   "main": "index.js",
   "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
