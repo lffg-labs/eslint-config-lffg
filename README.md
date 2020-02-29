@@ -1,4 +1,4 @@
-# ✨ LFFG's ESLint configuration
+# `eslint-config-lffg` ✨💫
 
 My personal ESLint configuration, which I use for almost all my projects. It is highly opinionated, and includes Prettier and TypeScript support by default.
 
