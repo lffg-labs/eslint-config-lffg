@@ -12,14 +12,14 @@ yarn add eslint eslint-config-lffg --dev
 
 Add the following to your `package.json`:
 
-```js
+```json
 "eslintConfig": {
   "extends": "lffg"
 },
 "scripts": {
   "lint": "yarn lint:raw .",
   "lint:fix": "yarn lint:raw --fix .",
-  "lint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0",
+  "lint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0"
 }
 ```
 
@@ -38,7 +38,7 @@ By default, `eslint-config-lffg` extends three subconfigurations, which are also
 
 If you are not using React, you may only extend the `es` configuration:
 
-```js
+```json
 {
   "extends": "lffg/es"
 }
