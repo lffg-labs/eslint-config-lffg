@@ -289,7 +289,8 @@ module.exports = {
         semi: true,
         arrowParens: 'always',
         singleQuote: true,
-        printWidth: 80
+        printWidth: 80,
+        trailingComma: 'es5'
       }
     ]
   }
