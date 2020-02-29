@@ -22,11 +22,11 @@ module.exports = {
   ],
 
   env: {
-    browser: true,
     commonjs: true,
-    es6: true,
-    jest: true,
+    browser: true,
     node: true,
+    jest: true,
+    es6: true,
   },
 
   parserOptions: {
@@ -286,11 +286,11 @@ module.exports = {
     'prettier/prettier': [
       WARN,
       {
-        semi: true,
+        trailingComma: 'es5',
         arrowParens: 'always',
         singleQuote: true,
         printWidth: 80,
-        trailingComma: 'es5',
+        semi: true,
       },
     ],
   },
