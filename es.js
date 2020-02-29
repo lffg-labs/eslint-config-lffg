@@ -18,7 +18,7 @@ module.exports = {
     'import-helpers',
     'html',
     'prettier',
-    'react'
+    'react',
   ],
 
   env: {
@@ -26,20 +26,20 @@ module.exports = {
     commonjs: true,
     es6: true,
     jest: true,
-    node: true
+    node: true,
   },
 
   parserOptions: {
     ecmaFeatures: { jsx: true },
     ecmaVersion: 2018,
-    sourceType: 'module'
+    sourceType: 'module',
   },
 
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx']
-    }
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
   },
 
   //
@@ -54,7 +54,7 @@ module.exports = {
         warnOnUnsupportedTypeScriptVersion: true,
         ecmaFeatures: { jsx: true },
         ecmaVersion: 2018,
-        sourceType: 'module'
+        sourceType: 'module',
       },
       rules: {
         '@typescript-eslint/adjacent-overload-signatures': ERROR,
@@ -73,8 +73,8 @@ module.exports = {
             functions: false,
             classes: false,
             variables: false,
-            typedefs: false
-          }
+            typedefs: false,
+          },
         ],
         '@typescript-eslint/no-useless-constructor': WARN,
         '@typescript-eslint/no-array-constructor': WARN,
@@ -83,7 +83,7 @@ module.exports = {
         '@typescript-eslint/camelcase': [WARN, { properties: 'never' }],
         '@typescript-eslint/no-inferrable-types': [
           WARN,
-          { ignoreParameters: true, ignoreProperties: true }
+          { ignoreParameters: true, ignoreProperties: true },
         ],
         '@typescript-eslint/explicit-function-return-type': OFF,
         '@typescript-eslint/explicit-member-accessibility': OFF,
@@ -110,9 +110,9 @@ module.exports = {
         'no-redeclare': OFF,
         'default-case': OFF,
         camelcase: OFF, // TS Equivalent
-        'no-undef': OFF // Checked by TS if `strictNullChecks` is `true`.
-      }
-    }
+        'no-undef': OFF, // Checked by TS if `strictNullChecks` is `true`.
+      },
+    },
   ],
 
   rules: {
@@ -141,7 +141,7 @@ module.exports = {
     radix: [ERROR, 'always'],
     'no-use-before-define': [
       ERROR,
-      { functions: false, classes: false, variables: false }
+      { functions: false, classes: false, variables: false },
     ],
     'no-whitespace-before-property': WARN,
     'no-template-curly-in-string': WARN,
@@ -200,8 +200,8 @@ module.exports = {
       {
         allowShortCircuit: true,
         allowTernary: true,
-        allowTaggedTemplates: true
-      }
+        allowTaggedTemplates: true,
+      },
     ],
     'no-mixed-operators': [
       WARN,
@@ -210,10 +210,10 @@ module.exports = {
           ['&', '|', '^', '~', '<<', '>>', '>>>'],
           ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
           ['&&', '||'],
-          ['in', 'instanceof']
+          ['in', 'instanceof'],
         ],
-        allowSamePrecedence: false
-      }
+        allowSamePrecedence: false,
+      },
     ],
     'no-constant-condition': OFF,
     'no-empty-function': OFF,
@@ -266,11 +266,11 @@ module.exports = {
           ['/^(@|~)//'],
           ['parent'],
           ['sibling'],
-          ['index']
+          ['index'],
         ],
         alphabetize: { order: 'asc', ignoreCase: true },
-        newlinesBetween: 'never'
-      }
+        newlinesBetween: 'never',
+      },
     ],
 
     //
@@ -290,8 +290,8 @@ module.exports = {
         arrowParens: 'always',
         singleQuote: true,
         printWidth: 80,
-        trailingComma: 'es5'
-      }
-    ]
-  }
+        trailingComma: 'es5',
+      },
+    ],
+  },
 };
