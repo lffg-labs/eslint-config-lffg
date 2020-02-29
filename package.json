@@ -46,9 +46,15 @@
     "eslint": "6.x"
   },
   "devDependencies": {
-    "eslint-config-lffg": "latest"
+    "eslint-config-lffg": "latest",
+    "husky": "^4.2.3"
   },
   "eslintConfig": {
     "extends": "lffg"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test"
+    }
   }
 }
