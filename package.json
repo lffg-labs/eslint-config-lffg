@@ -1,16 +1,51 @@
 {
-  "name": "@lffg/workspace-root",
-  "private": true,
-  "workspaces": [
-    "packages/*"
+  "name": "eslint-config-lffg",
+  "version": "13.0.0",
+  "description": "lffg's ESLint configuration.",
+  "main": "index.js",
+  "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lffg/eslint-config-lffg.git",
+    "directory": "packages/eslint-config-lffg"
+  },
+  "keywords": [
+    "eslint-config-lffg",
+    "eslint-config",
+    "typescript",
+    "javascript",
+    "prettier"
   ],
-  "scripts": {
-    "test": "yarn eslint .",
-    "release": "yarn test && yarn lerna publish major"
+  "bugs": {
+    "url": "https://github.com/lffg/eslint-config-lffg/issues"
+  },
+  "homepage": "https://github.com/lffg/eslint-config-lffg/tree/master/packages/eslint-config-lffg#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.x",
+    "builtin-modules": "^3.1.0",
+    "confusing-browser-globals": "^1.0.8",
+    "eslint": "6.x",
+    "eslint-config-prettier": "6.x",
+    "eslint-plugin-html": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-import-helpers": "1.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "3.x",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "prettier": "1.x",
+    "typescript": "3.5.3"
+  },
+  "peerDependencies": {
+    "eslint": "6.x"
   },
   "devDependencies": {
-    "eslint": "^6.7.1",
-    "eslint-config-lffg": "latest",
-    "lerna": "^3.19.0"
+    "eslint-config-lffg": "latest"
+  },
+  "eslintConfig": {
+    "extends": "lffg"
   }
 }
