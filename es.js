@@ -1,5 +1,6 @@
 const builtInModules = require('builtin-modules');
 const restrictedGlobals = require('confusing-browser-globals');
+const prettierConfig = require('./prettier');
 
 const ERROR = 'error';
 const WARN = 'warn';
@@ -283,15 +284,6 @@ module.exports = {
     //
     // Prettier:
     //
-    'prettier/prettier': [
-      WARN,
-      {
-        trailingComma: 'none',
-        arrowParens: 'always',
-        singleQuote: true,
-        printWidth: 80,
-        semi: true
-      }
-    ]
+    'prettier/prettier': [WARN, prettierConfig]
   }
 };
