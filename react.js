@@ -1,14 +1,8 @@
-const { root, parser, env, parserOptions, overrides } = require('./es');
-
 const ERROR = 'error';
 const WARN = 'warn';
 
 module.exports = {
-  root,
-  env,
-  parser,
-  parserOptions,
-  overrides,
+  extends: './es.js',
 
   plugins: ['react', 'react-hooks'],
 
