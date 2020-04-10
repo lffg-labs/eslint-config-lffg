@@ -1,7 +1,7 @@
 const WARN = 'warn';
 const OFF = 'off';
 
-const pagesGlob = 'pages/*.{js,jsx,ts,tsx}';
+const pagesGlob = 'pages/**/*.{js,jsx,ts,tsx}';
 
 module.exports = {
   overrides: [
