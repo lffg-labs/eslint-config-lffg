@@ -34,7 +34,8 @@ Then, you will be able to run:
 By default, `eslint-config-lffg` extends three subconfigurations, which are also included in this repository:
 
 - `es`, which lints ECMAScript (JavaScript) and TypeScript files;
-- `react`, which lints files that uses React.
+- `react`, which lints files that uses React;
+- `next`, which requires you to use _default_ and not _named_ exports within the `pages` or `src/pages` directory.
 
 If you are not using React, you may only extend the `es` configuration:
 
