@@ -74,6 +74,13 @@ module.exports = {
           WARN,
           { ignoreParameters: true, ignoreProperties: true }
         ],
+        '@typescript-eslint/ban-ts-comment': [
+          WARN,
+          {
+            'ts-expect-error': 'allow-with-description',
+            minimumDescriptionLength: 2
+          }
+        ],
         '@typescript-eslint/explicit-function-return-type': OFF,
         '@typescript-eslint/explicit-member-accessibility': OFF,
         '@typescript-eslint/member-delimiter-style': OFF,
