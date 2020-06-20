@@ -44,11 +44,7 @@
     "eslint": "7.x"
   },
   "devDependencies": {
-    "eslint-config-lffg": "latest",
     "husky": "^4.2.3"
-  },
-  "eslintConfig": {
-    "extends": "lffg"
   },
   "husky": {
     "hooks": {
