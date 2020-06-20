@@ -53,11 +53,9 @@ module.exports = {
         '@typescript-eslint/consistent-type-assertions': ERROR,
         '@typescript-eslint/prefer-namespace-keyword': ERROR,
         '@typescript-eslint/triple-slash-reference': ERROR,
-        '@typescript-eslint/class-name-casing': ERROR,
         '@typescript-eslint/no-var-requires': ERROR,
         '@typescript-eslint/no-misused-new': ERROR,
         '@typescript-eslint/no-this-alias': ERROR,
-        '@typescript-eslint/ban-ts-ignore': ERROR,
         '@typescript-eslint/ban-types': ERROR,
         '@typescript-eslint/no-use-before-define': [
           ERROR,
@@ -72,7 +70,6 @@ module.exports = {
         '@typescript-eslint/no-array-constructor': WARN,
         '@typescript-eslint/no-unused-vars': [WARN, { args: 'after-used' }],
         '@typescript-eslint/no-namespace': WARN,
-        '@typescript-eslint/camelcase': [WARN, { properties: 'never' }],
         '@typescript-eslint/no-inferrable-types': [
           WARN,
           { ignoreParameters: true, ignoreProperties: true }
@@ -80,7 +77,6 @@ module.exports = {
         '@typescript-eslint/explicit-function-return-type': OFF,
         '@typescript-eslint/explicit-member-accessibility': OFF,
         '@typescript-eslint/member-delimiter-style': OFF,
-        '@typescript-eslint/interface-name-prefix': OFF,
         '@typescript-eslint/no-non-null-assertion': OFF,
         '@typescript-eslint/no-empty-interface': OFF,
         '@typescript-eslint/no-empty-function': OFF,
@@ -101,7 +97,6 @@ module.exports = {
         'valid-typeof': OFF,
         'no-redeclare': OFF,
         'default-case': OFF,
-        camelcase: OFF, // TS Equivalent
         'no-undef': OFF // Checked by TS if `strictNullChecks` is `true`.
       }
     }
