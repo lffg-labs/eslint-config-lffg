@@ -243,6 +243,31 @@ module.exports = {
     'import/no-default-export': WARN,
     'import/no-named-default': WARN,
     'import/first': WARN,
+    'import/order': [
+      WARN,
+      {
+        groups: [
+          ['builtin'],
+          ['external'],
+          ['internal'],
+          ['parent'],
+          ['sibling'],
+          ['index'],
+          ['unknown']
+        ],
+        pathGroups: [
+          {
+            pattern: '{@,~}/**',
+            group: 'internal',
+            position: 'after'
+          }
+        ],
+        alphabetize: {
+          order: 'asc'
+        },
+        'newlines-between': 'never'
+      }
+    ],
 
     //
     // React
