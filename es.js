@@ -1,4 +1,3 @@
-const builtInModules = require('builtin-modules');
 const restrictedGlobals = require('confusing-browser-globals');
 const prettierConfig = require('./prettier');
 
@@ -12,15 +11,7 @@ module.exports = {
   parser: 'babel-eslint',
 
   extends: ['eslint:recommended', 'prettier'],
-
-  plugins: [
-    'jsx-a11y',
-    'import',
-    'import-helpers',
-    'html',
-    'prettier',
-    'react'
-  ],
+  plugins: ['jsx-a11y', 'import', 'html', 'prettier', 'react'],
 
   env: {
     commonjs: true,
@@ -252,27 +243,6 @@ module.exports = {
     'import/no-default-export': WARN,
     'import/no-named-default': WARN,
     'import/first': WARN,
-
-    //
-    // ESLint Plugin Import Helpers
-    // https://github.com/Tibfib/eslint-plugin-import-helpers
-    //
-    'import-helpers/order-imports': [
-      WARN,
-      {
-        groups: [
-          [`/^(${builtInModules.join('|')})$/`],
-          ['absolute'],
-          ['module'],
-          ['/^(@|~)//'],
-          ['parent'],
-          ['sibling'],
-          ['index']
-        ],
-        alphabetize: { order: 'asc', ignoreCase: true },
-        newlinesBetween: 'never'
-      }
-    ],
 
     //
     // React
