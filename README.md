@@ -19,7 +19,7 @@ Add the following to your `package.json`:
 "scripts": {
   "lint": "yarn lint:raw .",
   "lint:fix": "yarn lint:raw --fix .",
-  "lint:raw": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings=0"
+  "lint:raw": "eslint --max-warnings=0 --ignore-path .gitignore"
 }
 ```
 
