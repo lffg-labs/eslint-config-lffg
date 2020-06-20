@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lffg",
-  "version": "19.0.0",
+  "version": "20.0.0-0",
   "description": "lffg's ESLint configuration.",
   "main": "index.js",
   "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
