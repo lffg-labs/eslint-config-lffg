@@ -47,7 +47,7 @@ module.exports = {
         sourceType: 'module'
       },
       rules: {
-        '@typescript-eslint/switch-exhaustiveness-check': ERROR,
+        // '@typescript-eslint/switch-exhaustiveness-check': ERROR,
         '@typescript-eslint/no-implicit-any-catch': [
           ERROR,
           { allowExplicitAny: true }
@@ -61,10 +61,10 @@ module.exports = {
             typedefs: false
           }
         ],
-        '@typescript-eslint/no-misused-promises': ERROR,
+        // '@typescript-eslint/no-misused-promises': ERROR,
         '@typescript-eslint/no-var-requires': ERROR,
-        '@typescript-eslint/unbound-method': ERROR,
-        '@typescript-eslint/await-thenable': ERROR,
+        // '@typescript-eslint/unbound-method': ERROR,
+        // '@typescript-eslint/await-thenable': ERROR,
         '@typescript-eslint/no-misused-new': ERROR,
         '@typescript-eslint/no-this-alias': ERROR,
         '@typescript-eslint/ban-types': ERROR,
