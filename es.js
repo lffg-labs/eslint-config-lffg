@@ -8,8 +8,6 @@ const OFF = 'off';
 module.exports = {
   root: true,
 
-  parser: 'babel-eslint',
-
   extends: ['eslint:recommended', 'prettier'],
   plugins: ['jsx-a11y', 'import', 'html', 'prettier', 'react'],
 
@@ -49,14 +47,11 @@ module.exports = {
         sourceType: 'module'
       },
       rules: {
-        '@typescript-eslint/adjacent-overload-signatures': ERROR,
-        '@typescript-eslint/consistent-type-assertions': ERROR,
-        '@typescript-eslint/prefer-namespace-keyword': ERROR,
-        '@typescript-eslint/triple-slash-reference': ERROR,
-        '@typescript-eslint/no-var-requires': ERROR,
-        '@typescript-eslint/no-misused-new': ERROR,
-        '@typescript-eslint/no-this-alias': ERROR,
-        '@typescript-eslint/ban-types': ERROR,
+        '@typescript-eslint/switch-exhaustiveness-check': ERROR,
+        '@typescript-eslint/no-implicit-any-catch': [
+          ERROR,
+          { allowExplicitAny: true }
+        ],
         '@typescript-eslint/no-use-before-define': [
           ERROR,
           {
@@ -66,10 +61,16 @@ module.exports = {
             typedefs: false
           }
         ],
+        '@typescript-eslint/no-misused-promises': ERROR,
+        '@typescript-eslint/no-var-requires': ERROR,
+        '@typescript-eslint/unbound-method': ERROR,
+        '@typescript-eslint/await-thenable': ERROR,
+        '@typescript-eslint/no-misused-new': ERROR,
+        '@typescript-eslint/no-this-alias': ERROR,
+        '@typescript-eslint/ban-types': ERROR,
+        '@typescript-eslint/adjacent-overload-signatures': WARN,
         '@typescript-eslint/no-useless-constructor': WARN,
         '@typescript-eslint/no-array-constructor': WARN,
-        '@typescript-eslint/no-unused-vars': [WARN, { args: 'after-used' }],
-        '@typescript-eslint/no-namespace': WARN,
         '@typescript-eslint/no-inferrable-types': [
           WARN,
           { ignoreParameters: true, ignoreProperties: true }
@@ -80,6 +81,16 @@ module.exports = {
             'ts-expect-error': 'allow-with-description',
             minimumDescriptionLength: 2
           }
+        ],
+        '@typescript-eslint/no-unused-vars': [WARN, { args: 'after-used' }],
+        '@typescript-eslint/no-namespace': WARN,
+        '@typescript-eslint/consistent-type-imports': WARN,
+        '@typescript-eslint/consistent-type-assertions': WARN,
+        '@typescript-eslint/prefer-namespace-keyword': WARN,
+        '@typescript-eslint/triple-slash-reference': WARN,
+        '@typescript-eslint/array-type': [
+          WARN,
+          { default: 'array-simple', readonly: 'array-simple' }
         ],
         '@typescript-eslint/explicit-function-return-type': OFF,
         '@typescript-eslint/explicit-member-accessibility': OFF,
